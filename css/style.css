@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:century Gothic ;
+    background-color: aqua;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../ruth/mg1.jpg) ;
+    height: 100ch;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: violet;
+    padding: 5px 20px;
+    border: 1px transparent violet;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: blue;
+    color: #000;;
+}
+ul li.active a{
+    background-color:blue ;
+    color: black;
+}
+.logo img{
+    float:left;
+    width: 150px;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.titel{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+
+}
+.titel h1{
+    color: greenyellow;
+    font-size: 70px;
+
+}
+.button{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: yellow;
+    color: black;
+}
+.cont{
+    width: 300px;
+    height: 300px;
+    background: wheat;
+    border: 5px solid;
+    margin-top: 70px;
+    margin-left: 50rem;
+}
+.titil{
+   clear: both;
+   color: red; 
+
+}
+h1{
+    color: blue;
+    background-color: aqua;
+}
+h4{
+    color:red;
+}
